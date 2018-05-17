@@ -10,17 +10,7 @@
   <dependencies>
     <dependency>
         <groupId>com.psddev</groupId>
-        <artifactId>dari-db</artifactId>
-        <version>3.3-SNAPSHOT</version>
-    </dependency>
-    <dependency>
-        <groupId>com.psddev</groupId>
         <artifactId>dari-util</artifactId>
-        <version>3.3-SNAPSHOT</version>
-    </dependency>
-    <dependency>
-        <groupId>com.psddev</groupId>
-        <artifactId>dari-mysql</artifactId>
         <version>3.3-SNAPSHOT</version>
     </dependency>
     <dependency>

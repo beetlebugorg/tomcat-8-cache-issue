@@ -1,3 +1,5 @@
+package debug;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -45,6 +47,10 @@ public class ResourceFilter extends AbstractFilter {
                 resourceStream = context.getResourceAsStream("/WEB-INF/classes/" + internalPath);
                 if (resourceStream == null) {
                     resourceStream = ObjectUtils.getCurrentClassLoader().getResourceAsStream(internalPath);
+                }
+
+                if (resourceStream == null) {
+                    //resourceStream = getClass().getClassLoader().getResourceAsStream(internalPath);
                 }
             }
 
