@@ -1,4 +1,4 @@
-See this thread for information this repo: http://tomcat.10.x6.nabble.com/Issue-with-WebResource-Caching-td5074759.html
+See this thread for information on this repo: http://tomcat.10.x6.nabble.com/Issue-with-WebResource-Caching-td5074759.html
 
 The issue identified by this repo will be fixed in Tomcat 8.0.53+, 8.5.32+ and 9.0.9+.
 
