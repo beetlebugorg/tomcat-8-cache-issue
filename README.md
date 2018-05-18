@@ -2,6 +2,8 @@ See this thread for information on this repo: http://tomcat.10.x6.nabble.com/Iss
 
 The issue identified by this repo will be fixed in Tomcat 8.0.53+, 8.5.32+ and 9.0.9+.
 
+The fix was this commit: https://github.com/apache/tomcat/commit/5aa66d94ea16cf403e57368f5cfd315a8b88b2be
+
 # Testing
 
 ## Tomcat 8.0.38 (Working)
